@@ -76,9 +76,8 @@ miniproject3/
 See `config.yaml` for all paths and parameters.
 
 ## Example Output
-
-![screenshot](assests\Screenshot 2025-07-28 124923.png)
-![screenshot](assests\Screenshot 2025-07-28 124945.png)
+![screenshot](assests/Screenshot 2025-07-28 124923.png)
+![screenshot](assests/Screenshot 2025-07-28 124945.png)
 
 ---
 
