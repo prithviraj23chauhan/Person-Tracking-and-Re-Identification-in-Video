@@ -1,1 +1,0 @@
-get_similarity_color
