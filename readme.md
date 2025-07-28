@@ -20,13 +20,13 @@ A Python project for tracking people in video and re-identifying them using YOLO
 ## Requirements
 
 - Python 3.8+
-- OpenCV
-- torch
-- torchvision
-- ultralytics
-- deep_sort_realtime
-- pyyaml
-- scipy
+- opencv-python==4.10.0.84
+- torch==2.3.1
+- torchvision==0.18.1
+- ultralytics==8.3.58
+- deep-sort-realtime==1.3.2
+- pyyaml==6.0.1
+- scipy==1.12.0
 
 ## Project Structure
 
@@ -45,8 +45,6 @@ miniproject3/
 │   └── part2.mp4
 ├── features/
 │   └── features.pkl
-├── models/
-│   └── model_16_m3_0.8888.pth
 ├── output/
 └── assests/
     ├── Screenshot 2025-07-28 124923.png
