@@ -15,8 +15,7 @@ A Python project for tracking people in video and re-identifying them using YOLO
    ```
    pip install -r requirements.txt
    ```
-3. Download YOLO weights and place as specified in `config.yaml`
-4. Edit `config.yaml` to set your video paths and parameters
+3. Edit `config.yaml` to set your video paths and parameters
 
 ## Requirements
 
