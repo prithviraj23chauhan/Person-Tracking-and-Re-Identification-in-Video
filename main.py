@@ -20,7 +20,7 @@ def main():
             print(f"Using default re-identification video: {reid_video_path}")
             run_reidentification(reid_video_path)
         else:
-            features_file = config.get("features_db_path", "D:/vs code/PROJECT/miniproject3/features/features.pkl")            
+            features_file = config.get("features_db_path", "features/features.pkl")            
             print("Invalid choice.")
             with open(features_file, "wb") as f:
                 pickle.dump(features_file, f)
