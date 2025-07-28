@@ -1,7 +1,7 @@
 import cv2
 import yaml
 
-def load_config(path="PROJECT\miniproject3\config.yaml"):
+def load_config(path="config.yaml"):
     with open(path, "r") as f:
         return yaml.safe_load(f)
     
@@ -43,28 +43,3 @@ def get_similarity_color(similarity):
     green_value = 0  # You can add green for purple/cyan gradients if you want
 
     return (blue_value, green_value, red_value)
-# def get_similarity_color(similarity):
-#     """
-#     < 0.7: dark gray
-#     0.7: green
-#     0.8: yellow
-#     0.9+: red
-#     """
-#     if similarity < 0.7:
-#         return (30, 30, 30)  # Very dark gray
-#     elif similarity < 0.8:
-#         # Green to Yellow
-#         ratio = (similarity - 0.7) / 0.1  # 0 at 0.7, 1 at 0.8
-#         r = int(255 * ratio)
-#         g = 255
-#         b = 0
-#         return (b, g, r)
-#     elif similarity < 0.9:
-#         # Yellow to Red
-#         ratio = (similarity - 0.8) / 0.1  # 0 at 0.8, 1 at 0.9
-#         r = 255
-#         g = int(255 * (1 - ratio))
-#         b = 0
-#         return (b, g, r)
-#     else:
-#         return (0, 0, 255)  # Pure red for 0.9+

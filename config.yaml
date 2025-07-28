@@ -1,5 +1,5 @@
-tracking_video_path: "D:/vs code/PROJECT/miniproject3/demo_vid/853889-hd_1920_1080_25fps.mp4"
-reid_video_path: "D:/vs code/PROJECT/miniproject3/demo_vid/853889-hd_1920_1080_25fps.mp4"
+tracking_video_path: "demo_vid/853889-hd_1920_1080_25fps.mp4"
+reid_video_path: "demo_vid/853889-hd_1920_1080_25fps.mp4"
 model_path: "yolov8s.pt"
 deepsort:
   max_age: 30
